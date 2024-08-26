@@ -4,6 +4,11 @@
 
 🔍 **Explore o Poder da IA Generativa - Apenas execute o script e ele fará todo o download dos modelos localmente. Antes disso instale o python versão 3.10 ou superior e as dependencias ** 🤖
 
+# 🚀 Projeto Img2vid-Br-Front-End
+
+Este projeto utiliza o modelo `Img2Vid` da Stability AI para transformar imagens estáticas em vídeos dinâmicos. Abaixo estão alguns exemplos de vídeos gerados com o modelo, demonstrando suas capacidades de animação e transformação.
+
+
 ### 📦 Dependências e Instalação:
 
 Certifique-se de ter o **Python** instalado. Em seguida, instale as bibliotecas necessárias com o comando:
@@ -52,24 +57,6 @@ Após instalação acesse o endereço do web app localmente via http://127.0.0.1
 
 *Aqui está a interface do meu projeto, que foi desenvolvida para facilitar o uso e a experimentação com o modelo img2vid.*
 
-*Estes vídeos foram  gerado no meu próprio PC utilizando o modelo img2vid da Stability AI. Ele demonstra a capacidade do modelo de transformar imagens estáticas em vídeos dinâmicos.*
-
-## 🎥 Vídeo Gerado com o Resultado no Meu PC
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/kAFoc7uVJcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## 🎥 Vídeo com Variação nos Frames (Mínimo de 6 Frames)
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/eGvlJbhDQdE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-*Este vídeo mostra uma variação nos frames, o que proporciona uma fluidez mínima ao vídeo. Recomenda-se o uso de pelo menos 6 frames para garantir uma animação suave.*
-
-## 🎥 Outro Vídeo Gerado no Meu Computador
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/KuhhWo7jL0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-*Mais um exemplo de vídeo gerado utilizando a ferramenta, demonstrando a capacidade do modelo em produzir diferentes animações a partir de entradas variadas.*
 
 
 ## 📊 Gráfico de Consumo de Hardware no Meu PC
