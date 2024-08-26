@@ -52,6 +52,25 @@ Após instalação acesse o endereço do web app localmente via http://127.0.0.1
 
 *Aqui está a interface do meu projeto, que foi desenvolvida para facilitar o uso e a experimentação com o modelo img2vid.*
 
+*Estes vídeos foram  gerado no meu próprio PC utilizando o modelo img2vid da Stability AI. Ele demonstra a capacidade do modelo de transformar imagens estáticas em vídeos dinâmicos.*
+
+## 🎥 Vídeo Gerado com o Resultado no Meu PC
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/kAFoc7uVJcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## 🎥 Vídeo com Variação nos Frames (Mínimo de 6 Frames)
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/eGvlJbhDQdE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Este vídeo mostra uma variação nos frames, o que proporciona uma fluidez mínima ao vídeo. Recomenda-se o uso de pelo menos 6 frames para garantir uma animação suave.*
+
+## 🎥 Outro Vídeo Gerado no Meu Computador
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/KuhhWo7jL0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Mais um exemplo de vídeo gerado utilizando a ferramenta, demonstrando a capacidade do modelo em produzir diferentes animações a partir de entradas variadas.*
+
 
 ## 📊 Gráfico de Consumo de Hardware no Meu PC
 
@@ -106,33 +125,6 @@ Este projeto permite que você:
 - **Stable Video Diffusion Pipeline**: Modelo de IA que realiza a difusão para criação de vídeos. 🎞️
 - **PIL (Python Imaging Library)**: Para manipulação e redimensionamento de imagens. 🖼️
 - **Torch**: Biblioteca usada para a manipulação de tensores e execução de cálculos em GPUs. 🚀
-
-## 🎥 Vídeo Gerado com o Resultado no Meu PC
-
-<video width="640" controls>
-  <source src="https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generdated.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
-
-*Este vídeo foi gerado no meu próprio PC utilizando o modelo img2vid da Stability AI. Ele demonstra a capacidade do modelo de transformar imagens estáticas em vídeos dinâmicos.*
-
-## 🎥 Vídeo com Variação nos Frames (Mínimo de 6 Frames)
-
-<video width="640" controls>
-  <source src="https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generated_20240826_044207_ddc6fad9d9da4ee8898a241423f164d9.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
-
-*Este vídeo mostra uma variação nos frames, o que proporciona uma fluidez mínima ao vídeo. Recomenda-se o uso de pelo menos 6 frames para garantir uma animação suave.*
-
-## 🎥 Outro Vídeo Gerado no Meu Computador
-
-<video width="640" controls>
-  <source src="https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generated01.mp4" type="video/mp4">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
-
-*Mais um exemplo de vídeo gerado utilizando a ferramenta, demonstrando a capacidade do modelo em produzir diferentes animações a partir de entradas variadas.*
 
 
 
