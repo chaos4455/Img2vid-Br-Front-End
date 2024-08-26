@@ -2,7 +2,17 @@
 
 🚀 **Transforme Imagens em Vídeos com Facilidade!** 🎥
 
-🔍 **Explore o Poder da IA Generativa** 🤖
+🔍 **Explore o Poder da IA Generativa - Apenas execute o script e ele fará todo o download dos modelos localmente. Antes disso instale o python versão 3.10 ou superior e as dependencias ** 🤖
+
+### 📦 Dependências e Instalação:
+
+Certifique-se de ter o **Python** instalado. Em seguida, instale as bibliotecas necessárias com o comando:
+
+```bash
+pip install torch diffusers gradio pillow
+```
+
+Após instalação acesse o endereço do web app localmente via http://127.0.0.1:7860
 
 ---
 
@@ -97,13 +107,6 @@ Este projeto permite que você:
 - **PIL (Python Imaging Library)**: Para manipulação e redimensionamento de imagens. 🖼️
 - **Torch**: Biblioteca usada para a manipulação de tensores e execução de cálculos em GPUs. 🚀
 
-### 📦 Dependências e Instalação:
-
-Certifique-se de ter o **Python** instalado. Em seguida, instale as bibliotecas necessárias com o comando:
-
-```bash
-pip install torch diffusers gradio pillow
-```
 
 ## 🎥 Vídeo Gerado com o Resultado no Meu PC
 
@@ -142,7 +145,7 @@ Sou um especialista em **IA generativa avançada** e sempre busco novos desafios
 
 ---
 
-# 🚀 Vamos Criar Algo Incrível Juntos!
+# 🚀 Criei esse repositório pra mostrar meus conhecimentos e habilidades em trabalhar com interfaces e back ends de IA generativa de última geração utilizando abordagem simples e funcional para implementações peformáticas e de simples implentação no estado da arte.
 
 Se você está interessado em **IA generativa** e quer explorar mais, **não hesite em me contatar** no meu linkedin🌟
 
