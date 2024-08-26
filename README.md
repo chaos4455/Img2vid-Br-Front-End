@@ -107,22 +107,30 @@ Este projeto permite que você:
 - **PIL (Python Imaging Library)**: Para manipulação e redimensionamento de imagens. 🖼️
 - **Torch**: Biblioteca usada para a manipulação de tensores e execução de cálculos em GPUs. 🚀
 
-
 ## 🎥 Vídeo Gerado com o Resultado no Meu PC
 
-![Vídeo Gerado com o Resultado no Meu PC](https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generdated.mp4)
+<video width="640" controls>
+  <source src="https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generdated.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
 
 *Este vídeo foi gerado no meu próprio PC utilizando o modelo img2vid da Stability AI. Ele demonstra a capacidade do modelo de transformar imagens estáticas em vídeos dinâmicos.*
 
 ## 🎥 Vídeo com Variação nos Frames (Mínimo de 6 Frames)
 
-![Vídeo com Variação nos Frames](https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generated_20240826_044207_ddc6fad9d9da4ee8898a241423f164d9.mp4)
+<video width="640" controls>
+  <source src="https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generated_20240826_044207_ddc6fad9d9da4ee8898a241423f164d9.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
 
 *Este vídeo mostra uma variação nos frames, o que proporciona uma fluidez mínima ao vídeo. Recomenda-se o uso de pelo menos 6 frames para garantir uma animação suave.*
 
 ## 🎥 Outro Vídeo Gerado no Meu Computador
 
-![Outro Vídeo Gerado no Meu Computador](https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generated01.mp4)
+<video width="640" controls>
+  <source src="https://github.com/chaos4455/Img2vid-Br-Front-End/raw/main/assets/generated01.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
 
 *Mais um exemplo de vídeo gerado utilizando a ferramenta, demonstrando a capacidade do modelo em produzir diferentes animações a partir de entradas variadas.*
 
