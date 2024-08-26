@@ -135,6 +135,70 @@ Este projeto não é apenas uma ferramenta, mas um **exemplo prático** de como 
 Desenvolver este **front-end** foi um desafio interessante e gratificante, e espero que você aproveite tanto quanto eu ao usá-lo! 🎉
 
 ---
+Lógica detalhada usada no desenvolvimento do projeto:
+
+- 📂 **Projeto: Gerador de Vídeo com Stable Video Diffusion**
+  - 🔄 **Tecnologia e Bibliotecas**
+    - 🛠️ **Python**
+    - 🔧 **Bibliotecas:**
+      - 📦 **torch** (PyTorch)
+      - 🖼️ **PIL** (Pillow)
+      - 🧩 **diffusers** (Stable Video Diffusion)
+      - 🌐 **gradio** (Interface Gráfica)
+      - 📅 **datetime** (Data e Hora)
+      - 🆔 **uuid** (Identificadores Únicos)
+      - 🗂️ **os** (Sistema de Arquivos)
+
+  - 🧩 **Funções**
+    - 📏 **resize_image(image, size_option)**
+      - 🔍 **Obter tamanho original da imagem**
+      - 🔢 **Verificar tipo de `size_option`**
+        - 🧮 **Tamanho fixo**: Redimensionar para `size_option`
+        - 📉 **Porcentagem**: Calcular novo tamanho com base na porcentagem
+      - 🔄 **Redimensionar imagem** com antialiasing (Image.LANCZOS)
+
+    - 🎬 **generate_video(image_path, num_frames, fps, decode_chunk_size, motion_bucket_id, noise_aug_strength, seed, size_option)**
+      - 🧪 **Verificar validade do caminho da imagem**
+        - ❌ **Caminho inválido**: Retornar erro
+      - 🔧 **Configuração do Pipeline**
+        - 📦 **Carregar modelo** (StableVideoDiffusionPipeline)
+        - ⚙️ **Configurar descarregamento de modelo para CPU**
+      - 📷 **Carregar e Redimensionar Imagem**
+        - 🖼️ **Carregar imagem** (load_image)
+        - 📏 **Redimensionar imagem** (resize_image)
+      - 🔢 **Definir gerador e semente** (torch.manual_seed)
+      - 🎞️ **Gerar Frames**
+        - 🔄 **Loop para geração em chunks**
+        - 📈 **Adicionar frames gerados** ao array
+      - 📁 **Gerar Nome Único para Arquivo**
+        - 📅 **Data e Hora** + 🆔 **UUID**
+      - 💾 **Exportar Vídeo** (export_to_video)
+      - ✅ **Retornar Nome do Arquivo e Mensagem de Sucesso**
+
+  - 🖥️ **Interface Gradio**
+    - 🧩 **Blocos de Interface**
+      - 🏷️ **Markdown**
+        - 📝 **Título e Instruções**
+        - 🖼️ **Prévia da Imagem**
+        - 📋 **Informações sobre salvamento do vídeo**
+        - 🌟 **Mensagens encorajadoras**
+      - 📥 **Inputs**
+        - 📁 **Imagem de Entrada** (gr.Image)
+        - 📏 **Tamanho da Imagem/Vídeo** (gr.Dropdown)
+        - 🎞️ **Número de Frames** (gr.Slider)
+        - ⏱️ **FPS** (gr.Slider)
+        - 🧩 **Tamanho do Chunk** (gr.Slider)
+        - 🎯 **ID do Bucket de Movimento** (gr.Slider)
+        - 🔊 **Intensidade de Aumento de Ruído** (gr.Slider)
+        - 🌱 **Seed para Geração Aleatória** (gr.Number)
+      - 🚀 **Botão de Geração** (gr.Button)
+        - 🔄 **Chamar Função `generate_video`**
+      - 📽️ **Saídas**
+        - 🎥 **Vídeo Gerado** (gr.Video)
+        - 📝 **Mensagem de Status** (gr.Textbox)
+
+  - 🚀 **Execução**
+    - 🎯 **Lançar Interface Gradio** (demo.launch())
 
 # 🌐 Portfólio & Contato
 
