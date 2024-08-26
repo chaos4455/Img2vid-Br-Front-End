@@ -28,7 +28,7 @@ Após instalação acesse o endereço do web app localmente via http://127.0.0.1
 💻 **Hardware**: Testado em RTX 2060 de 12GB  
 
 
-**Bem-vindo ao projeto "Gerador de Vídeo com Stable Video Diffusion"!** Aqui, eu desenvolvi uma interface **front-end** intuitiva e poderosa utilizando **Gradio** para facilitar o uso e os testes com o modelo **Img2Vid** da **Stability AI**. Meu objetivo foi criar uma ferramenta acessível para gerar vídeos a partir de imagens, aproveitando o potencial de IA generativa avançada. 🚀
+**Bem-vindo ao meu projeto Img2vid-Br-Front-End!** Aqui, eu desenvolvi uma interface **front-end** intuitiva e poderosa utilizando **Gradio** para facilitar o uso e os testes com o modelo **Img2Vid** da **Stability AI**. Meu objetivo foi criar uma ferramenta acessível para gerar vídeos a partir de imagens, aproveitando o potencial de IA generativa avançada. 🚀
 
 ## 🚀 Exemplo de Imagem Estática de Foguete 
 
@@ -37,7 +37,6 @@ Após instalação acesse o endereço do web app localmente via http://127.0.0.1
 ![Capacidade do Modelo Stability-AI Img2Vid](https://github.com/chaos4455/Img2vid-Br-Front-End/blob/main/assets/output_tile.gif?raw=true))
 
 *Esta imagem é um exemplo do que o modelo Stable Video Diffusion da Stability AI pode fazer, transformando uma imagem estática em uma animação fluida.* 
-
 
 ![Exemplo de Foguete Estático](https://github.com/chaos4455/Img2vid-Br-Front-End/blob/main/assets/rocket.png?raw=true)
 
