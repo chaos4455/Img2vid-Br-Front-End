@@ -29,7 +29,7 @@ Após instalação acesse o endereço do web app localmente via http://127.0.0.1
 
 ## 🖼️ Exemplo de Capacidade do Modelo Stability-AI Img2Vid
 
-![Capacidade do Modelo Stability-AI Img2Vid](https://github.com/chaos4455/Img2vid-Br-Front-End/blob/main/assets/chrome_qB6sC8rtiG.png?raw=true)
+![Capacidade do Modelo Stability-AI Img2Vid](https://github.com/chaos4455/Img2vid-Br-Front-End/blob/main/assets/output_tile.gif?raw=true))
 
 *Esta imagem é um exemplo do que o modelo Stable Video Diffusion da Stability AI pode fazer, transformando uma imagem estática em uma animação fluida.*
 
