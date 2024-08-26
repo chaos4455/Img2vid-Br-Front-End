@@ -17,6 +17,20 @@ Certifique-se de ter o **Python** instalado. Em seguida, instale as bibliotecas 
 pip install torch diffusers gradio pillow
 ```
 
+
+
+https://github.com/user-attachments/assets/a5bfc5ec-a5d0-4ba1-ac9a-b2c01a39ce82
+
+
+
+https://github.com/user-attachments/assets/a2cecd97-af43-4864-b233-a79e27344d36
+
+
+
+https://github.com/user-attachments/assets/6dd07ced-b90a-4719-819d-de38a118c7c6
+
+
+
 Após instalação acesse o endereço do web app localmente via http://127.0.0.1:7860
 
 ---
