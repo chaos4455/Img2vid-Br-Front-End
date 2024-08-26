@@ -1,10 +1,21 @@
-# 🎥✨ Gerador de Vídeo com Stable Video Diffusion ✨🎥
+# 🎨 **Img2vid-Br-Front-End** 🎨
 
-**Bem-vindo ao projeto "Gerador de Vídeo com Stable Video Diffusion"!** Aqui, eu, Elias Andrade, desenvolvi uma interface **front-end** intuitiva e poderosa utilizando **Gradio** para facilitar o uso e os testes com o modelo **Img2Vid** da **Stability AI**. Meu objetivo foi criar uma ferramenta acessível para gerar vídeos a partir de imagens, aproveitando o potencial de IA generativa avançada. 🚀
+🚀 **Transforme Imagens em Vídeos com Facilidade!** 🎥
 
-## 🚀 Exemplo de Imagem Estática de Foguete
+🔍 **Explore o Poder da IA Generativa** 🤖
+
+---
+
+🌟 **Projeto**: Img2vid-Br-Front-End  
+🔧 **Tecnologia**: Gradio, Stable Video Diffusion  
+🎯 **Objetivo**: Fornecer uma interface intuitiva para gerar vídeos a partir de imagens  
+🌐 **Inspiração**: Comunidade Hugging Face  
+💻 **Hardware**: Testado em RTX 2060 de 12GB  
 
 
+**Bem-vindo ao projeto "Gerador de Vídeo com Stable Video Diffusion"!** Aqui, eu desenvolvi uma interface **front-end** intuitiva e poderosa utilizando **Gradio** para facilitar o uso e os testes com o modelo **Img2Vid** da **Stability AI**. Meu objetivo foi criar uma ferramenta acessível para gerar vídeos a partir de imagens, aproveitando o potencial de IA generativa avançada. 🚀
+
+## 🚀 Exemplo de Imagem Estática de Foguete 
 
 ## 🖼️ Exemplo de Capacidade do Modelo Stability-AI Img2Vid
 
